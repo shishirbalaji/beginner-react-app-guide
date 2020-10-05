@@ -13,7 +13,7 @@ import {
 export default function App() {
   return (
     <Fragment>
-      <Router history={browserHistory} basename="/simple-banking-app">
+      <Router history={browserHistory} basename="/beginner-react-app-guide">
         <h1>Simple Banking App goes here</h1>
         <Switch>
           <Route path="/dashboard">
