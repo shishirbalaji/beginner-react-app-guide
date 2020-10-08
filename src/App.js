@@ -20,7 +20,7 @@ export default function App() {
     <Fragment>
       <ThemeProvider theme={theme}>
         <Header />
-        <Router history={browserHistory}>
+        <Router history={browserHistory} basename="/beginner-react-app-guide">
           <Switch>
             <Route exact path="/">
               <SignIn />
